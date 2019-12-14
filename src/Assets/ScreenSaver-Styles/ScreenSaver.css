@@ -1,0 +1,122 @@
+.Screen-Saver-Main {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/leavesPlant.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.Screen-Saver-init {
+  height: 100%;
+  display: flex;
+}
+.Screen-Saver-body {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Screen-Saver-temp {
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+.Screen-Saver-cloudInfo {
+  display: flex;
+  flex-direction: row;
+}
+.Screen-Saver-weather {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: 600;
+  text-align: right;
+  margin: 5px;
+}
+.Scattred-Cloudes {
+  font-size: 16px;
+}
+.Cloud-Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icon {
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+}
+#icon2 {
+  color: #010101c9;
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+#icon3 {
+  color: white;
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+.Mississauga {
+  font-size: 9px;
+}
+.Screen-Saver-Timer {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 5px;
+}
+.pm {
+  color: gray;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.Screen-Saver-DMY {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  text-align: right;
+  line-height: 1.4rem;
+  font-weight: 600;
+}
+.Screen-Saver-line {
+  width: 50%;
+}
+.Hr {
+  color: gray;
+}
+.Screen-Saver-boxes {
+  display: flex;
+  flex-direction: column;
+}
+.box-cont-1 {
+  min-width: 155px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.boxes {
+  width: 56px;
+  background: white;
+  padding: 7px;
+  border-radius: 5px;
+}
+.boxesColor {
+  width: 56px;
+  background: #5bb52d;
+  padding: 7px;
+  border-radius: 5px;
+}
+.Screen-Saver-icons {
+  display: flex;
+  flex-direction: row;
+  min-width: 150px;
+  justify-content: space-between;
+  margin-top: 75px;
+}
